@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    --opacidad-negro: 0.6;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("Fondo.png");
+    /* background-image: url(Fondo.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.titulo1{
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Foto{
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 300px;
+}
+
+.tit{
+    font-size: 65px;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 70px;
+    letter-spacing:14px;
+}
+
+.tit2{
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.info{
+    background-color: rgb(235, 253, 238);
+    border-radius: 15px;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    font-size: 25px;
+}
+
+.Foto2{
+    width: 85%;
+}
+
+.fuente{
+    font-size: 18px;
+}
+
+.Important1{
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 60px;
+    background-color: rgb(180, 180, 180);
+    
+}
+
+.Important2{
+    font-size: 23px;
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(180, 180, 180);
+}
+
+.Sub{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+.Foto3{
+    width: 70%;
+}
+
+.info2{
+    background-color: rgb(241, 252, 212);
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3.5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 3%;
+    font-size: 25px;
+}
+
+.todofuentes{
+    margin-left: 18%;
+    margin-top: 3%;
+    margin-right: 18%;
+    font-size: 18px;
+}
+
+.fuentes{
+    float: left;
+    display: inline-block;
+    background-color: rgb(235, 253, 238);
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    margin-right: 10px;
+}

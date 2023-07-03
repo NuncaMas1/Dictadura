@@ -96,7 +96,6 @@ body{
     padding-top: 2%;
     padding-left: 3%;
     padding-right: 3%;
-    padding-bottom: 3.5%;
     margin-left: 18%;
     margin-right: 18%;
     margin-top: 3%;
@@ -121,4 +120,8 @@ body{
     padding-bottom: 3%;
     margin-bottom: 5%;
     margin-right: 10px;
+}
+
+.creditos{
+    font-size: 19px;
 }
